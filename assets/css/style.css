@@ -3,3 +3,8 @@ body{
     padding: 0;
 }
 
+nav div a img{
+    width : 30px;
+    height: auto;
+}
+
