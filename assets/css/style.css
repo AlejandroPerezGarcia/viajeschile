@@ -5,23 +5,38 @@ body{
     border: 0;
 }
 
+/* nav   */
 nav div a img{
     width : 30px;
     height: auto;
 }
 
+
+/* linea color celeste de separacion*/
 .hr{
- background-color: #AED6F1 ;   
+ background-color: rgb(29, 140, 214) ;   
 }
 
+
+/* color card */
 .card{
     background-color:rgb(29, 140, 214);
     color: white;
 }
 
-
+/* tamaño imagen carrucel*/
 .carousel-item {
     width: 100%;
-   
-    }
+}
+
+/* fondo imagen quines somos con icon*/
+.fondo{
+    background-color: rgb(29, 140, 214);
+}
+
+
+/*fondo color footer*/
+footer{
+    background-color: rgb(29, 140, 214);
+}
 

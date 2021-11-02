@@ -17,6 +17,7 @@
 <body>
     
     <!--inicio nav-->
+
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
         <div class="container">
                 <a class="navbar-brand" id="logo" href="#"> <img src="assets/img/viajes.svg" alt="logo" > Viajes Chile</a>
@@ -28,22 +29,24 @@
                         <li class="nav-item ml-auto">
                         <a class="nav-link text-white" href="#">Inicio<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item ml-auto">
-                        <a class="nav-link text-white" href="#">Quienes Somos</a>
+                        <li class="nav-item ml-auto d-none d-xl-block">
+                        <a class="nav-link text-white" href="#quienessomos">Quienes Somos</a>
                         </li>
                         <li class="nav-item ml-auto">
                             <a class="nav-link text-white" href="#destacado">Destacados</a>
                         </li>
                         <li class="nav-item ml-auto">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
         </div>
     </nav>
+
     <!--Fin nav-->
 
     <!--inicio header con Carrusel-->
+
     <header>        
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -66,12 +69,38 @@
                 </a>
             </div>
         </div>       
-    </header>  
+    </header> 
+
     <!--Fin header-->
+
+    <!-- inicio  quines somos-->
+
+    <section>
+        <div class="container py-3 d-none d-xl-block">
+            <div><h4 class="text-white text-center py-4" id="quienessomos">¿Quienes Somos?</h4> </div>
+            <div class="container-fluid"><hr class="hr"></div>
+            <div class="row">
+                <div class="col-md-4 col-12 my-3 py-3">
+                    <p class="text-white fondo text-center"><i class="fab fa-avianex fa-2x"></i></p>
+                    <p class="text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id vel consectetur doloribus nihil eveniet sint, omnis labore eaque ullam exercitationem quasi? Ipsum eligendi quasi nisi dolor minima officiis sunt, repellendus impedit numquam nam aliquam eius placeat repellat esse nesciunt tenetur. Necessitatibus minima consequuntur ab aliquid, quam fugiat veniam mollitia debitis ad soluta dignissimos odit earum voluptas ullam nesciunt repellat aperiam dolorum repudiandae est inventore maxime. Sed deleniti quae suscipit ex laudantium voluptatibus accusamus optio reprehenderit iure? Eos omnis ad deserunt voluptatum? Perspiciatis, facilis harum deserunt quas. </p>
+                </div>
+                <div class="col-md-4 col-12 my-3 py-3">
+                    <p class="text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id vel consectetur doloribus nihil eveniet sint, omnis labore eaque ullam exercitationem quasi? Ipsum eligendi quasi nisi dolor minima officiis sunt, repellendus impedit numquam nam aliquam eius placeat repellat esse nesciunt tenetur. Necessitatibus minima consequuntur ab aliquid, quam fugiat veniam mollitia debitis ad soluta dignissimos odit earum voluptas ullam nesciunt repellat aperiam dolorum repudiandae est inventore maxime. Sed deleniti quae suscipit ex laudantium voluptatibus accusamus optio reprehenderit iure? Eos omnis ad deserunt voluptatum? Perspiciatis, facilis harum deserunt quas. </p>
+                    <p class="text-white fondo text-center"><i class="fas fa-mountain fa-2x"></i></p>
+                </div>
+                <div class="col-md-4 col-12 my-3 py-3">
+                    <p class="text-white fondo text-center"><i class="fas fa-route fa-2x"></i></p>
+                    <p class="text-white text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id vel consectetur doloribus nihil eveniet sint, omnis labore eaque ullam exercitationem quasi? Ipsum eligendi quasi nisi dolor minima officiis sunt, repellendus impedit numquam nam aliquam eius placeat repellat esse nesciunt tenetur. Necessitatibus minima consequuntur ab aliquid, quam fugiat veniam mollitia debitis ad soluta dignissimos odit earum voluptas ullam nesciunt repellat aperiam dolorum repudiandae est inventore maxime. Sed deleniti quae suscipit ex laudantium voluptatibus accusamus optio reprehenderit iure? Eos omnis ad deserunt voluptatum? Perspiciatis, facilis harum deserunt quas. </p>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <!-- fin  quines somos-->
 
     <!--Inicio  Destacado-->
    
-    <div class="container">
+    <div class="container py-4">
         <div><h4 class="text-white text-center py-4" id="destacado">Destacados</h4> </div>
         <div class="container-fluid"><hr class="hr"></div>
           <div class="row">
@@ -89,7 +118,7 @@
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="lago">
                         <div class="card-body">
                             <h5 class="card-title">Lago</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>            
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. </p>            
                         </div>
                 </div>  
             </div> 
@@ -102,7 +131,7 @@
                         </div>
                 </div>     
             </div> 
-            <div class="col-md-3 col-12 my-3 ">
+            <div class="col-md-3 col-12 my-3">
                 <div class="card">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque">
                         <div class="card-body">
@@ -116,9 +145,22 @@
 
     <!--Fin Destacado-->
 
+    <!-- inicio formulario-->
+      <div class="contaire">
+        <div><h4 class="text-white text-center py-2" id="contacto">Contacto</h4> </div>
+        <div class="container"><hr class="hr"></div>
+          <div class="container py-4">
+            <div data-tf-widget="tVBKFNjx" style="width:100%;height:400px;"></div>
+          </div>
+      </div>
+
+
+    <!--fin formulario-->
+
 
     <!-- inicio footer -->
-    <footer class="container-fluid text-center btn-light bg-primary ">         
+
+    <footer class="container-fluid text-center">         
             <div class="row">                
                 <div class="col-md-6 col-12 py-4">
                     <h5 class="text-white " >VIAJES CHILE</h5>
@@ -131,8 +173,12 @@
                 </div>    
             </div>             
     </footer>
+
     <!-- fin footer -->
 
+
+    <!-- script formulario-->
+    <script src="//embed.typeform.com/next/embed.js"></script>
     <!-- JS   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>    
