@@ -2,10 +2,26 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
+    border: 0;
 }
 
 nav div a img{
     width : 30px;
     height: auto;
 }
+
+.hr{
+ background-color: #AED6F1 ;   
+}
+
+.card{
+    background-color:rgb(29, 140, 214);
+    color: white;
+}
+
+
+.carousel-item {
+    width: 100%;
+   
+    }
 
