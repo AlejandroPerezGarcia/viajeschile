@@ -1,14 +1,34 @@
+:root{
+     --montserrat : 'Montserrat', sans-serif;
+     --roboto :  'Roboto', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: black;
     border: 0;
+   
 }
 
+
+
 /* nav   */
+nav div a {
+    font-family:var(--montserrat);
+}
+
 nav div a img{
+    
     width : 30px;
     height: auto;
+}
+
+
+/*section*/
+
+section{
+    font-family: var(--roboto);
 }
 
 
@@ -22,11 +42,18 @@ nav div a img{
 .card{
     background-color:rgb(29, 140, 214);
     color: white;
+    font-family: var(--montserrat);
 }
 
 /* tamaño imagen carrucel*/
 .carousel-item {
     width: 100%;
+}
+
+/*contacto*/
+
+#contacto{
+    font-family: var(--roboto);
 }
 
 /* fondo imagen quines somos con icon*/
@@ -37,6 +64,7 @@ nav div a img{
 
 /*fondo color footer*/
 footer{
+    font-family: var(--montserrat);
     background-color: rgb(29, 140, 214);
 }
 
