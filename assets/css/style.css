@@ -1,6 +1,7 @@
 :root{
      --montserrat : 'Montserrat', sans-serif;
      --roboto :  'Roboto', sans-serif;
+     
 }
 
 body{
@@ -68,3 +69,9 @@ footer{
     background-color: rgb(29, 140, 214);
 }
 
+nav.active {
+    background:rgb(129, 127, 127);
+  }
+
+
+ 

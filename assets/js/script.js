@@ -18,7 +18,15 @@
             });
           } // End if
         });
-           
+
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > $("#quienessomos").offset().top - 50) {
+            $("nav").addClass("active");
+          } else {
+            $("nav").removeClass("active");
+          };
+        });
+                  
 
       });  
       
